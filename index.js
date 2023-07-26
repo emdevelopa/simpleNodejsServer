@@ -32,7 +32,7 @@ app.use("/file", logIncomingRequests)
 app.get("/file", (req, res) => {
     fs.readFile("data.txt", "utf8", (error, data) => {
         if (error) {
-            res.status(500).send('Error when trying to get contentfrom data.txt file')
+            res.status(500).send('Error when trying to get content from data.txt file')
         } else {
             res.send(data)
         }
