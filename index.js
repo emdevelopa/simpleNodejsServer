@@ -12,7 +12,7 @@ const logIncomingRequests = (req, res, next) => {
     next(); 
 };
 
-//Using line 16, it will call the for all request made on any routes instead of specifying them one after the other  
+//Using line 16, it will call the middleware function for all request made on any routes instead of specifying them one after the other  
 // app.use(logIncomingRequests)
 
 
