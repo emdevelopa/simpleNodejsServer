@@ -1,7 +1,7 @@
 const http = require('http');
 const fs = require('fs');
 
-const PORT = 3006;
+const PORT = 3000;
 
 // middleware function that logs the request being made on the console
 const logIncomingRequests = (req, res, next) => {
